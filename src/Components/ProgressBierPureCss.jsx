@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 
-export default function ProgressBier({ duration }) {
+export default function ProgressBierPureCss({ duration }) {
   const [timerIsActive, setTimerIsActive] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(duration);
   const intervalRef = useRef(null);
